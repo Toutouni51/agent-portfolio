@@ -8,15 +8,14 @@ Un agent travaille dans son propre contexte et renvoie son résultat à l'assist
 
 | Agent | Modèle | Rôle |
 |---|---|---|
+| [cadreur-business](agents/cadreur-business.md) | Opus | Évalue une idée avant de la construire : client, modèle économique, hypothèses risquées et verdict GO, À REVOIR ou STOP. |
+| [client-critique](agents/client-critique.md) | Sonnet | Relit une proposition ou un message en jouant le client visé, et indique les objections et les 3 changements prioritaires avant envoi. |
+| [controleur-mise-en-ligne](agents/controleur-mise-en-ligne.md) | Opus | Contrôle les secrets, les données personnelles, les liens privés et les sauvegardes avant publication, et rend un feu vert, orange ou rouge. |
 | [deep-reasoner](agents/deep-reasoner.md) | Opus | Planification, architecture, débogage complexe et conception d'algorithmes. Renvoie une recommandation, pas tout le raisonnement. |
 | [Executor](agents/executor.md) | Sonnet | Tâches mécaniques dont l'approche est déjà décidée : tests, renommages, code répétitif. |
 | [prospection-clubs-foot](agents/prospection-clubs-foot.md) | Opus | À partir d'un département, trouve les clubs de football de R1, N2 et N1 et leurs contacts publics, puis remplit un fichier Excel en indiquant les sources et un niveau de confiance. |
-
-| [cadreur-business](agents/cadreur-business.md) | Opus | Évalue une idée avant de la construire : client, modèle économique, hypothèses risquées et verdict GO, À REVOIR ou STOP. |
-| [testeur-utilisateur](agents/testeur-utilisateur.md) | Sonnet | Teste une application comme un vrai client et rend un rapport sans jargon, classé par gravité et appuyé sur des preuves. |
-| [controleur-mise-en-ligne](agents/controleur-mise-en-ligne.md) | Opus | Contrôle les secrets, les données personnelles, les liens privés et les sauvegardes avant publication, et rend un feu vert, orange ou rouge. |
 | [stratege-offre](agents/stratege-offre.md) | Opus | Construit ou améliore une offre : positionnement, contenu, prix et garantie, avec les calculs et un test à mener. |
-| [client-critique](agents/client-critique.md) | Sonnet | Relit une proposition ou un message en jouant le client visé, et indique les objections et les 3 changements prioritaires avant envoi. |
+| [testeur-utilisateur](agents/testeur-utilisateur.md) | Sonnet | Teste une application comme un vrai client et rend un rapport sans jargon, classé par gravité et appuyé sur des preuves. |
 
 `deep-reasoner` et `Executor` fonctionnent ensemble : le premier décide quoi faire, le second l'exécute avec un modèle moins coûteux.
 
