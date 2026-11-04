@@ -15,10 +15,14 @@ Un agent travaille dans son propre contexte et renvoie son résultat à l'assist
 | [cadreur-business](agents/cadreur-business.md) | Opus | Évalue une idée avant de la construire : client, modèle économique, hypothèses risquées et verdict GO, À REVOIR ou STOP. |
 | [testeur-utilisateur](agents/testeur-utilisateur.md) | Sonnet | Teste une application comme un vrai client et rend un rapport sans jargon, classé par gravité et appuyé sur des preuves. |
 | [controleur-mise-en-ligne](agents/controleur-mise-en-ligne.md) | Opus | Contrôle les secrets, les données personnelles, les liens privés et les sauvegardes avant publication, et rend un feu vert, orange ou rouge. |
+| [stratege-offre](agents/stratege-offre.md) | Opus | Construit ou améliore une offre : positionnement, contenu, prix et garantie, avec les calculs et un test à mener. |
+| [client-critique](agents/client-critique.md) | Sonnet | Relit une proposition ou un message en jouant le client visé, et indique les objections et les 3 changements prioritaires avant envoi. |
 
 `deep-reasoner` et `Executor` fonctionnent ensemble : le premier décide quoi faire, le second l'exécute avec un modèle moins coûteux.
 
 `cadreur-business`, `testeur-utilisateur` et `controleur-mise-en-ligne` accompagnent un projet no-code de l'idée à la mise en ligne. Ils sont inspirés d'agents de [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) et de [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents), publiés sous licence MIT. Chaque fichier cite ses sources.
+
+`stratege-offre` et `client-critique` servent à vendre : le premier construit l'offre, le second la relit avec les yeux du client. Ils sont inspirés d'[agency-agents](https://github.com/msitarzewski/agency-agents) et, pour `stratege-offre`, de [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills), publiés sous licence MIT.
 
 ## Skills
 
