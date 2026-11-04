@@ -25,9 +25,19 @@ Un skill est un ensemble d'instructions que l'assistant charge et suit dans la c
 | [school-contacts](skills/school-contacts/SKILL.md) | Recherche les responsables académiques d'une école supérieure privée à partir de sources publiques. |
 | [sponsors-evenement-local](skills/sponsors-evenement-local/SKILL.md) | Trouve et note des entreprises locales susceptibles de sponsoriser un événement sportif associatif. |
 
+## Skills externes que j'utilise
+
+Ces projets ne sont pas de moi : ils appartiennent à leurs auteurs et ne sont pas copiés dans ce dépôt.
+
+| Skill | Dépôt | Rôle |
+|---|---|---|
+| ppt-agent | [Akxan/ppt-agent-skill](https://github.com/Akxan/ppt-agent-skill), qui s'appuie sur [sunbigfly/ppt-agent-skills](https://github.com/sunbigfly/ppt-agent-skills) | Génère une présentation complète, de la recherche jusqu'au fichier PPTX. |
+| remotion | [remotion-dev/skills](https://github.com/remotion-dev/skills) | Bonnes pratiques pour créer des vidéos en React avec Remotion. |
+| find-skills | [vercel-labs/skills](https://github.com/vercel-labs/skills) | Aide à trouver et installer de nouveaux skills. |
+
 ## Installation
 
-Copie les fichiers voulus dans ton dossier Claude Code :
+Pour installer les agents et skills de ce dépôt, copie les fichiers voulus dans ton dossier Claude Code :
 
 ```bash
 cp agents/*.md ~/.claude/agents/
